@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="HondaERP.Application/HondaERP.Application.csproj" />
+  <Project Path="HondaERP.Domain/HondaERP.Domain.csproj" />
+  <Project Path="HondaERP.Infrastructure/HondaERP.Infrastructure.csproj" />
+  <Project Path="HondaERP/HondaERP.csproj" />
+</Solution>

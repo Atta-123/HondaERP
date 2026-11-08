@@ -1,0 +1,24 @@
+
+# Visual Studio files
+.vs/
+*.user
+*.suo
+*.cache
+
+# Build output
+bin/
+obj/
+
+# Visual Studio temporary files
+*.vsidx
+
+# NuGet
+packages/
+
+# Logs
+*.log
+
+# Environment and secrets
+.env
+.env.*
+appsettings.Development.json
