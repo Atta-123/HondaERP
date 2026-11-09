@@ -14,13 +14,13 @@ public class BranchesController : ControllerBase
         _service = service;
     }
 
-    [HttpGet]
-    public async Task<IActionResult> GetAll(CancellationToken ct)
-    {
-        var branches = await _service.GetAllAsync(ct);
+    //[HttpGet]
+    //public async Task<IActionResult> GetAll(CancellationToken ct)
+    //{
+    //    var branches = await _service.GetAllAsync(ct);
 
-        return Ok(branches);
-    }
+    //    return Ok(branches);
+    //}
 
     [HttpGet("{id:int}")]
     public async Task<IActionResult> GetById(
